@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Commerce website</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+    <div class="top-container">
+        <h1>ClipKart</h1>
+    </div>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+    </div>
+    <h2 style="align-content: center; color: brown" id="heading_info"> Buy Items</h2>
+    <div class="container" id="products_container">
+
+    </div>
+    <script>
+        var obj = JSON.parse(text);
+        //window.alert(obj.mobile_phones.name);
+
+        var product_container = document.getElementById("products_container");
+        //Creating a row div
+        var iterator;
+        for (iterator = 0; iterator < obj.mobile_phones.length; iterator++) {
+            if (iterator % 2 == 0) {
+                var row_div = document.createElement("div");
+                row_div.setAttribute('class', 'row');
+                //creating image div
+            }
+            var img_div = document.createElement("div");
+            img_div.classList.add('col-sm-2', 'col-md-2', 'col-lg-2')
+            var image = document.createElement("img");
+            image.src = "images/" + obj.mobile_phones[iterator].image;
+            //adding image div to row div
+            img_div.appendChild(image);
+            row_div.appendChild(img_div);
+
+            //creating description div
+            var des_div = document.createElement("div");
+            des_div.classList.add('col-sm-4', 'col-md-4', 'col-lg-4');
+
+            var product_name = document.createElement("h2");
+            var product_name_text = document.createTextNode(obj.mobile_phones[iterator].name);
+            product_name.appendChild(product_name_text);
+
+            var product_description = document.createElement("h5");
+            var product_description_text = document.createTextNode(obj.mobile_phones[iterator].description);
+            product_description.appendChild(product_description_text);
+
+            var product_price = document.createElement("h4");
+            var product_price_text = document.createTextNode(" Price: Rs. " + obj.mobile_phones[iterator].price + "/-");
+            product_price.appendChild(product_price_text);
+
+            var _br = document.createElement("BR");
+
+            var button = document.createElement("input");
+            button.type = "button";
+            button.classList.add('btn', 'btn-primary');
+            button.value = "Add to Cart";
+            button.id = "add_to_cart_button_id" + obj.mobile_phones[iterator].id;
+            button.setAttribute("onClick", "add_to_cart(this.id)");
+
+            var quantity_input = document.createElement("input");
+            quantity_input.type = "text";
+            quantity_input.classList.add("form-control");
+            quantity_input.id = "quantity_input_id" + obj.mobile_phones[iterator].id;
+            quantity_input.setAttribute("value", "1");
+            quantity_input.style.width = "90px";
+            quantity_input.style.margin = "2px";
+            //<input type="text" class="form-control" id="usr" value="1" style="width:20px">
+            //button.onclick = myfunction(this.id);
+            des_div.appendChild(product_name);
+            des_div.appendChild(product_description);
+            des_div.appendChild(product_price);
+            des_div.appendChild(_br);
+            des_div.appendChild(quantity_input);
+            des_div.appendChild(button);
+            row_div.appendChild(des_div);
+
+            if (iterator % 2 == 1 || (iterator + 1) == obj.mobile_phones.length) {
+                product_container.appendChild(row_div);
+            }
+            if ((iterator + 1) == obj.mobile_phones.length) {
+                var checkout_button = document.createElement("input");
+                checkout_button.type = "button";
+                checkout_button.classList.add('btn', 'btn-info', 'btn-block')
+                checkout_button.style.margin = "10px";
+                checkout_button.value = "Checkout";
+                checkout_button.id = "checkout_btn";
+                checkout_button.setAttribute("onClick", "checkout()");
+                //checkout_button.onclick = checkout;
+                product_container.appendChild(_br);
+                product_container.appendChild(_br);
+                product_container.appendChild(checkout_button);
+
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- 
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-2" style="border: black; border-width: 2px;">
+                <img src="images/iphonex.jpg">
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <h2> Apple iPhone X (64GB) - Silver </h2>
+                <h5> A new flagship phone from Apple with 4GB of RAM and upto 512GB of internal storage!</h5>
+                <h4 style="color: brown;"> Price: Rs. 99,800/- </h4>
+                <br>
+                <button type="button" class="btn btn-primary">Add to cart</button>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2" style="border: black; border-width: 2px;">
+                <img src="images/oneplus7pro.jpg">
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <h2> OnePlus 7 Pro Nebula Blue 8GB+256GB </h2>
+                <h5> A new flagship phone from Apple with 4GB of RAM and upto 512GB of internal storage!</h5>
+                <h4 style="color: brown;"> Price: Rs. 99,800/- </h4>
+                <br>
+                <button type="button" class="btn btn-primary">Add to cart</button>
+            </div>
+        </div>
+-->
