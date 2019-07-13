@@ -151,7 +151,7 @@ namespace fx_app
             // Execute Api call
             //https://www1.oanda.com/rates/api/v2/rates/spot.json?api_key=ggeAzjVhxieAUEI5pDdANQUK&base=USD&quote=INR
             string host = "https://www1.oanda.com/rates/";
-            api_key = "aeNuEkLSTi4sjwm1RvgGdNOv";
+            api_key = "<YOUR API KEY>";
             string api_link = "api/v2/rates/spot.json?api_key=";
             string api = api_link + api_key + "&base=" + base_currency + "&quote=" + quote_currency;
             var httpResponseMessage = MakeApiCall(host, api);
@@ -1113,7 +1113,6 @@ namespace fx_app
             btn_fx_transaction.BackColor = System.Drawing.ColorTranslator.FromHtml("#2D2D30");
             btn_calculate_premium.BackColor = Color.DarkSlateGray;
             btn_cross_pair_calc.BackColor = System.Drawing.ColorTranslator.FromHtml("#2D2D30");
-
         }
 
         private void checkBox4_calculate_volatility_CheckedChanged(object sender, EventArgs e)
