@@ -1,0 +1,39 @@
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\bin\Debug\testAPI.exe.config
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\bin\Debug\testAPI.exe
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\bin\Debug\testAPI.pdb
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\obj\Debug\testAPI.csprojAssemblyReference.cache
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\obj\Debug\testAPI.Form1.resources
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\obj\Debug\testAPI.Properties.Resources.resources
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\obj\Debug\testAPI.csproj.GenerateResource.cache
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\obj\Debug\testAPI.csproj.CoreCompileInputs.cache
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\obj\Debug\testAPI.csproj.CopyComplete
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\obj\Debug\testAPI.exe
+C:\Users\Inv3nt0r\OneDrive\Documents\Visual Studio 2019\Projects\repos\testAPI\testAPI\obj\Debug\testAPI.pdb
+C:\Users\FinIQ\Downloads\repos\repos\testAPI\testAPI\bin\Debug\testAPI.exe.config
+C:\Users\FinIQ\Downloads\repos\repos\testAPI\testAPI\obj\Debug\testAPI.exe
+C:\Users\FinIQ\Downloads\repos\repos\testAPI\testAPI\obj\Debug\testAPI.pdb
+C:\Users\FinIQ\Downloads\repos\repos\testAPI\testAPI\obj\Debug\testAPI.csprojResolveAssemblyReference.cache
+C:\Users\FinIQ\Downloads\repos\repos\testAPI\testAPI\obj\Debug\testAPI.Form1.resources
+C:\Users\FinIQ\Downloads\repos\repos\testAPI\testAPI\obj\Debug\testAPI.Properties.Resources.resources
+C:\Users\FinIQ\Downloads\repos\repos\testAPI\testAPI\obj\Debug\testAPI.csproj.GenerateResource.Cache
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\testAPI.exe.config
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\obj\Debug\testAPI.exe
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\obj\Debug\testAPI.pdb
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\testAPI.exe
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\testAPI.pdb
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\mscorlib.dll
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\System.Net.Http.dll
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\System.Net.Http.xml
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\normidna.nlp
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\normnfc.nlp
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\normnfd.nlp
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\normnfkc.nlp
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\bin\Debug\normnfkd.nlp
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\obj\Debug\testAPI.csprojResolveAssemblyReference.cache
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\obj\Debug\testAPI.Form1.resources
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\obj\Debug\testAPI.Properties.Resources.resources
+C:\Users\FinIQ\Downloads\repos\testAPI\testAPI\obj\Debug\testAPI.csproj.GenerateResource.Cache
+\\FINIQ-NSK38\Shared\Intern_2019_Data\50177_Durgesh_Pachghare\Assignment_testAPI\testAPI\testAPI\bin\Debug\testAPI.exe.config
+\\FINIQ-NSK38\Shared\Intern_2019_Data\50177_Durgesh_Pachghare\Assignment_testAPI\testAPI\testAPI\obj\Debug\testAPI.exe
+\\FINIQ-NSK38\Shared\Intern_2019_Data\50177_Durgesh_Pachghare\Assignment_testAPI\testAPI\testAPI\obj\Debug\testAPI.pdb
