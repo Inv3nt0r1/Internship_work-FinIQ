@@ -1113,7 +1113,6 @@ namespace fx_app
             btn_fx_transaction.BackColor = System.Drawing.ColorTranslator.FromHtml("#2D2D30");
             btn_calculate_premium.BackColor = Color.DarkSlateGray;
             btn_cross_pair_calc.BackColor = System.Drawing.ColorTranslator.FromHtml("#2D2D30");
-
         }
 
         private void checkBox4_calculate_volatility_CheckedChanged(object sender, EventArgs e)
